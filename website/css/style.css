@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Droid';
+  src: url('../fonts/DroidSansMono-webfont.woff')format('woff');
+}
+
+@font-face {
+  font-family: 'Acme';
+  src: url('../fonts/Acme-Regular-webfont.woff')format('woff');
+}
+
+header,main,section,footer,h1,h2,h3,h4,h5,h6,p,ul,img{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font: 1.1em/1.1 'Helvetica', Arial, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+li{
+  font-family: 'Droid', Arial, sans-serif;
+}
+
+/*header*/
+.logo-area, nav{
+  display: inline;
+}
+
+.logo-area{
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 10px 0 5px;
+  margin: 15px 0 0 0;
+  text-transform: uppercase;
+  border-right: 1px solid #000;
+}
+.seperated{
+  border-right:none;
+}
+
+/*body*/
+
+#caraosel {
+  text-align: center;
+}
+
+#caraosel h1{
+  font-family: 'Acme', Arial, sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: rgb(200,200,200);
+  padding: 3px 0 1px 0;
+  margin: 0;
+}
+.caraosel-area{
+  width: 100%;
+  min-height: 671px;
+  background-image: url(../img/bh01.jpg),
+                    url(../img/bh02.jpg),
+                    url(../img/bh03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-circles{
+  text-align: center;
+}
+.image-circles{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 150px;
+  left: 900px;
+}
+.image-circles li{
+  display: inline;
+}
+.content-location{
+  text-align: left;
+}
+.content-location p{
+  padding: 25px 0;
+  color: rgb(200,200,200);
+  border-bottom: 1px solid;
+}
+
+/*adventure area*/
+#info{
+  padding: 35px 0;
+}
+.box{
+  display: inline;
+  width: 33.3%;
+  text-align: center;
+  border-bottom: 1px solid rgb(200,200,200);
+}
+.boxa{
+  float: left;
+}
+.boxb{
+  float: left;
+}
+.boxc{
+  float: left;
+}
+
+.box p{
+  text-align: justify;
+  padding: 0 40px;
+  margin: 30px 0;
+}
+
+/*bookings area*/
+
+#bookings{
+  padding: 35px 0;
+}
+#bookings h2{
+  text-transform: uppercase;
+  color: lightblue;
+}
+input{
+  border-radius: 6px;
+  outline: 0;
+}
+
+select{
+  border-radius: 6px;
+  outline: 0;
+}
+button {
+  border-radius: 6px;
+  outline: 0;
+  width:400px;
+  height:60px;
+}
+/*footer area*/
+
+footer{
+  background-color: #d18f69;
+  text-align: center;
+}
+.connectivity{
+  padding: 20px 0 0 0;
+}
+.social-media{
+  float: left;
+}
+.social-media ul li{
+  display: inline;
+  padding: 0 15px 0 0;
+}
+
+.telephonic{
+  float: right;
+}
+.telephone-logo{
+  float: left;
+}
+.telephone-number{
+  float: right;
+}
+
+#policy{
+  display: block;
+}
+#policy ul li{
+  font-size: 0.7em;
+  display: inline;
+  padding: 0 15px 0 0;
+}
+#copyrights p{
+  font-size: 0.7em;
+}
+
+li{
+  color:#000;
+}
+
+/*for clearing inline filling.......Float clearfix*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
