@@ -82,6 +82,7 @@ also the leap into electronic typesetting, remaining essentially unchanged. </p>
         <section id="bookings">
           <h2>Booking</h2>
           <form class="booking-form" action="" method="">
+            <br>
             <select class="package-type" name="package">
               <option value="a" selected>Package Type</option>
               <option value="a" >Package A</option>
@@ -89,18 +90,30 @@ also the leap into electronic typesetting, remaining essentially unchanged. </p>
               <option value="a" >Package C</option>
               <option value="a" >Package D</option>
             </select><br><br>
-            <label for="checkin">Check-in</label>
-            <input type="date" name="startdate" value="">
-            <label for="checkout">Check-out</label>
-            <input type="date" name="startdate" value="">
+
+            <div class="check-in">
+              <span class="checkin line-elements">Check-in:</span>
+              <span class="line-elements"> <input class="line-elements" type="date" name="startdate" > </span>
+            </div>
+            <div class="check-out">
+              <span class="checkout line-elements">Check-out:</span>
+              <span class="line-elements"> <input class="line-elements" type="date" name="startdate" > </span>
+            </div>
+
+            <br><br>
+
+
             <select class="traveller-number" name="travellers">
               <option value="a" selected>Number of Travellers</option>
               <option value="a" >1</option>
               <option value="a" >2</option>
               <option value="a" >3</option>
               <option value="a" >more than 3</option>
-            </select><br><br>
-            <button type="button" name="button">Book Now!</button>
+            </select>
+            <br><br>
+
+
+            <button class="button" type="button" name="button">Book Now!</button>
           </form>
         </section>
         <!-- end of booking area -->
